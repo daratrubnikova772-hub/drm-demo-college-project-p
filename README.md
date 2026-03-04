@@ -8,23 +8,34 @@
    ```bash
    git clone https://github.com/daratrubnikova772-hub/drm-demo-college-project-p.git
 Перейдите в папку проекта:
-bash
+  ```bash
 
-cd drm-protection
-Установите необходимые библиотеки:
-bash
+ cd drm-demo-college-project-p
+```
+2.Установите необходимые библиотеки:
+ ```bash
 
-pip install cryptography
+   pip install cryptography
+```
 Запустите программу:
-bash
+  ```bash
 
-python src/main.py
-Структура проекта
+  python src/main.py
+```
+Структура проекта:
+
 src/ — исходные коды
+
 data/keys/ — хранятся ключи
+
 input/ — исходные файлы для шифрования
+
 output/ — зашифрованные и расшифрованные файлы
-Использование
+
+Использование:
+
 Выбирайте пункты меню для шифрования, расшифровки или генерации ключа.
+
 Перед первым запуском убедитесь, что есть входной файл input/контент.txt.
+
 Для безопасности храните файл с ключом в надежном месте.
